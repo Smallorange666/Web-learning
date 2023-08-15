@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mozilla 宣传主页</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Mozilla</h1>
+      <img src="firefox_logo_400px.png" alt="">
+
+    </header>
+
+    <main>
+      <article>
+        <iframe src="//player.bilibili.com/player.html?aid=3303261&bvid=BV1rs411d7hC&cid=5221343&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+        <h2>自由网络 尽情驰骋</h2>
+
+        <p>Mozilla 是一个全球社区，这里聚集着来自五湖四海的 技术人员、思考者、建造者。我们致力于让 Internet 保持活力，保持畅通，人人皆可贡献，人人皆可创造。我们坚信：开放平台的协作对于人的发展至关重要，也决定着我们共同的未来。</p>
+
+        <p>更多精彩信息，敬请点击下方图片。<a href="https://www.flickr.com/photos/mathiasappel/21675551065/">小熊猫照片</a>由 Mathias Appel 拍摄</p>
+      </article>
+
+      <div class="further-info">
+        <!-- 插入包含 srcsets 和 sizes 属性的图像 -->
+        <a href="https://www.mozilla.org/zh-CN/firefox/new/">
+          <img
+            srcset="firefox_logo_400px.png 400w, firefox_logo_120px.png 120w" 
+            sizes="(max-width:480) 120px, 400px"
+            alt="Firefox">
+        </a>
+        <a href="https://www.mozilla.org/">
+          <img
+            srcset="mozilla-dinosaur-head_400px.png 400w, mozilla-dinosaur-head_120px.png 120w"
+            sizes="(max-width:480) 120px, 400px"
+            alt="Mozilla dinosaur"
+            >
+        </a>
+        <a href="https://addons.mozilla.org/">
+          <img
+            srcset="firefox-addons_400px.jpg 400w, firefox-addons_120px.png 120w"
+            sizes="(max-width:480) 120px, 400px"
+            alt="Firefox addons"
+            >
+        </a>
+        <a href="https://developer.mozilla.org/zh-CN/">
+          <img src="mdn.svg">
+        </a>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="red-panda">
+        <picture>
+          <source media="(max-width:599px)" srcset="red-panda600px.png" />
+          <source media="(min-width:600px)" srcset="red-panda1200px.png" />
+          <img src="red-panda1200px.png" alt="Red panda">
+        </picture>
+      </div>
+
+    </main>
+  </body>
+</html>

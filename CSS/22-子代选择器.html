@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 空格隔开的是后代选择器，选中所有的后代 */
+        /* div a{
+            color: red;
+        } */
+        /* 子代选择器只选择儿子这一代 */
+        div>a{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        父级
+        <a href="#">这是div里面的a</a>
+        <p>
+            <a href="#">这是div里面的p里面的a</a>
+        </p>
+    </div>
+</body>
+</html>
