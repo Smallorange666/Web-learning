@@ -1,0 +1,94 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  html{
+    font-size: 10px;
+  }
+  header{
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  body{
+    line-height: 2em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  section h2+p{
+    text-indent: 20px;
+  }
+
+  section p a{
+    background: url(external-link-52.png) no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+  }
+  a:link, a:visited, a:hover, a:focus{
+    color:#a66;
+  }
+
+  a:hover, a:focus{
+    text-decoration: none;
+  }
+
+  a:active{
+    color:blue;
+  }
+
+  li{
+    line-height: 2em;
+  }
+
+  nav li{
+    margin: 10px;
+    width:200px;
+    height:80px;
+    list-style: none;
+    border:1px solid #a66;
+
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 80px;
+  }
