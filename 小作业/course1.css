@@ -1,0 +1,68 @@
+.warper{
+    width: 1440px;
+    margin: 0 auto;
+}
+.choosemode{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    width: 504px;
+    margin: 0 auto;
+}
+
+.choosemode .mode{
+    text-align: center;
+}
+
+.practice{
+    margin: 10px auto;
+}
+
+.practice .practicehead{
+    width: 1013px;
+    height: 50px;
+    background-color: #FAFAFA;
+
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.practice .practicehead p{
+    line-height: 50px;
+    height: 50px;
+    position: relative;
+
+    text-align: center;
+    border-right: 1px solid #BFBFBF;
+}
+.practice .practicehead :nth-child(3){
+    border: none;
+}
+
+.practice ul{
+    margin: 0 auto;
+    width: 1013px;
+
+    height: 560px;
+    overflow-y: scroll;
+}
+.practice ul li{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+
+    border-bottom: 1px solid #BFBFBF;
+}
+
+.practice ul li p{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.submitbutton{
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    margin-right:250px;
+}

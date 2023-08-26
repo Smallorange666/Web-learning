@@ -1,0 +1,50 @@
+
+.search{    
+    height: 30px;
+    width: 300px;
+
+    position: relative;
+    top: 131px;
+    left: 1009px;
+}
+
+.courselist{
+    width: 1148px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    margin: 50px auto;
+}
+
+.courselist .course{
+    height: 113px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #F0F0F0;
+
+    position: relative;
+}
+
+.courselist .course a{
+    width: 232px;
+    height: 113px;
+
+    margin: 22px;
+
+    position: relative;
+    top: 22px;
+}
+.courselist .course a:link{
+    color: #099;
+}
+.courselist .course a:hover{
+    color: #099;
+}
+.courselist .course a:active{
+    color: #099;
+}
+.courselist .course a:visited{
+    color: #099;
+}
