@@ -1,0 +1,91 @@
+.warper{
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.exercisearea{
+  width: 1174px;
+
+  position: relative;
+  top: 133px;
+
+  margin: 0 auto;
+}
+
+.exercisearea ul li{
+  margin: 20px;
+}
+.exercisearea ul li .exerciseheader{
+  height: 40px;
+  line-height: 40px;
+
+  padding-left: 2em;
+  border: 1px solid #F0F0F0;
+}
+.exercisearea ul li .exerciseoption{
+  height: 200px;
+  border: 1px solid #F0F0F0;
+}
+
+.exercisearea ul li .exerciseoption ul li{
+  height: 40px;
+  line-height: 40px;
+
+  margin: 5px;
+  padding-left: 2em;
+}
+
+.submitbutton{
+  position: relative;
+  top: 155px;
+  left: 1219px;
+}
+
+.floatingframe{
+  width: 451px;
+  height: 204px;
+
+  position: sticky;
+  top: 0;
+
+  float: right;
+  z-index: 9999;
+  border: 1px solid #D9D9D9;
+
+  font-family: Helvatica Neue for Number;
+}
+
+.floatingframe .progress{
+  margin: 10px;
+}
+
+.floatingframe .progressbar{
+  width: 336px;
+  height: 19px;
+
+  border-radius: 10px;
+  background-color: #099;
+
+  margin: 20px auto;
+}
+
+.floatingframe .jumparea ul{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+
+  width: 326px;
+  height: 78px;
+  margin: 0 auto;
+}
+
+.floatingframe .jumparea li{
+  height: 28px;
+  width: 28px;
+  border-radius: 50px;
+
+  color: white;
+  background-color: #099;
+
+  text-align: center;
+  line-height: 28px;
+}
