@@ -4,18 +4,18 @@
 
 ​		本项目是参照Matrix平台为其设计的一个选择题小工具，使用HTML+CSS+JavaScript编写完成。基本实现了高保真图中的基础架构，但是其部分功能尚未完成（具体见“未实现的部分”）
 
-​		[Github——选择题小工具](https://github.com/Smallorange666/Web-learning/tree/master/)
+​		[Github——选择题小工具](https://github.com/Smallorange666/Web-learning/tree/master/选择题小工具))
 
 ### 2、项目结构
 
 ​		压缩包中包含：
 
-	+ README文档
-	+ index.html，首页HTML文件
-	+ CSS文件夹，包括所有的CSS文件
-	+ Image文件夹，内含页面中使用到的静态图片
-	+ Uploads文件夹，内含可能会动态上传到网页的图片
-	+ 其他页面HTML文件
++ README文档
++ index.html，首页HTML文件
++ CSS文件夹，包括所有的CSS文件
++ Image文件夹，内含页面中使用到的静态图片
++ Uploads文件夹，内含可能会动态上传到网页的图片
++ 其他页面HTML文件
 
 ### 3、食用方法
 
